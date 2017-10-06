@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 var userName = 'EdwardSchaefer';
-var url = 'http://api.github.com/users/' + userName + '/repos';
 
-function getRepos() {
+function getRepos(userName) {
+	var url = 'http://api.github.com/users/' + userName + '/repos';
 	axios.get(url)
 		.then(function(response) {
 			for (var i = response.data.length - 1; i >= 0; i--) {
@@ -12,4 +12,4 @@ function getRepos() {
 		});
 	};
 
-getRepos();
+getRepos(userName);

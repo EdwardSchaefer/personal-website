@@ -17,3 +17,5 @@ This repository is for a personal website which display a user's repositories an
 	10/5/2017: Edited index.html to include header with links
 	10/5/2017: Added ajax.js for axios ajax requests
 	10/6/2017: Added function for retrieving repositories for a user in ajax.js
+	10/6/2017: Refactored url construction and added userName as an argument 
+		into getRepos function in ajax.js
