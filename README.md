@@ -3,8 +3,9 @@ This repository is for a personal website which display a user's repositories an
 #List of Files
 --------------
 
-	*/public: Publically available files, including index.html
-	*/src: Source code
+	*/public/: Publically available files, including index.html
+	*/src/: Source code
+	*/src/ajax.js: Functions for Github API
 	*README.md: This readme file
 
 #List of Changes
@@ -14,3 +15,4 @@ This repository is for a personal website which display a user's repositories an
 	10/5/2017: Initialized a ReactJS template with create-react-app
 	10/5/2017: Edited README.md, package.json
 	10/5/2017: Edited index.html to include header with links
+	10/5/2017: Added ajax.js for axios ajax requests
