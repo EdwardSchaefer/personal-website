@@ -22,3 +22,5 @@ This repository is for a personal website which display a user's repositories an
 		into getRepos function in ajax.js
 	10/6/2017: Added getDirectories function for retrieving directories and 
 		files in the root folder of a repository
+	10/6/2017: Added getRawContents function to ajax.js to get the raw 
+		contents of a specific file

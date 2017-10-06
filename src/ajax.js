@@ -14,9 +14,9 @@ function getRepos(userName) {
 
 //getRepos(userName);
 
-var repoName = 'personal-website';
+var repoName = 'interval-cycles';
 
-//Get the directories and file in the root folder of a repository
+//Get the directories and files in the root folder of a repository
 function getDirectories(repoName) {
 	var url = 'http://api.github.com/repos/' + userName + '/' + repoName + '/contents/'
 	axios.get(url)
@@ -27,4 +27,17 @@ function getDirectories(repoName) {
 		});
 }
 
-getDirectories(repoName);
+//getDirectories(repoName);
+
+var file = 'index.html'
+
+//Get the raw contents of a file in a repo
+function getRawContents(file) {
+	var urlResponse = '';
+	axios.get('http://raw.githubusercontent.com/' + userName + '/' + repoName + '/master/' + file)
+		.then(function(response) {
+			console.log(response.data)
+		})
+};
+
+//getRawContents(file)
