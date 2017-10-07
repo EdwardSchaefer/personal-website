@@ -24,3 +24,4 @@ This repository is for a personal website which display a user's repositories an
 		files in the root folder of a repository
 	10/6/2017: Added getRawContents function to ajax.js to get the raw 
 		contents of a specific file
+	10/6/2017: Added User component to App.js
