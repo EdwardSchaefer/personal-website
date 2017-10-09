@@ -27,3 +27,5 @@ This repository is for a personal website which display a user's repositories an
 	10/6/2017: Added User component to App.js
 	10/8/2017: Added exported statement for getRepos in ajax.js and 
 		import statement in App.js
+	10/8/2017: Added Repo component and added some mock repos to User 
+		component

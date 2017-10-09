@@ -20,11 +20,24 @@ class App extends Component {
   }
 }
 
+class Repo extends Component {
+  render() {
+    return (
+      <div>Repo {this.props.i}</div>
+    )
+  }
+}
+
 class User extends Component {
   render() {
     return (
       <div>
-        User component
+        <div>
+          User component
+        </div>
+        <Repo i="1" />
+        <Repo i="2" />
+        <Repo i="3" />
       </div>
     );
   }
