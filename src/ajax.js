@@ -41,3 +41,5 @@ function getRawContents(file) {
 };
 
 //getRawContents(file)
+
+export default getRepos;
