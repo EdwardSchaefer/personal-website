@@ -1,10 +1,20 @@
+header {
+	background-color: #3333CC;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #333399;
 }
-header {
-	background-color: #333399;
+
+a:link {
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #DDDDDD;
 }
 
 #githubLink {
@@ -12,4 +22,15 @@ header {
 }
 #linkedinLink {
 
+}
+
+.projectList {
+	background-color: #333377;
+	color: #CCCCFF;
+	list-style-type: none;
+	font-size: 25px;
+}
+
+.project {
+	padding: 25px;
 }

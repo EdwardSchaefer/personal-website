@@ -30,3 +30,4 @@ This repository is for a personal website which display a user's repositories an
 	10/12/2017: Edited README.md to remove automatically added information 
 		about merge
 	10/12/2017: Initialized static version of website
+	10/12/2017: Added template and css for list of projects
