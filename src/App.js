@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
 import getRepos from './ajax.js'
+||||||| merged common ancestors
+=======
+import getRepos from './ajax.js';
+>>>>>>> 7d8ccb54dc4e1864a4b4c766e3933cc087d82c03
 
 class App extends Component {
   render() {

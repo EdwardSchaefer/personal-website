@@ -24,8 +24,16 @@ This repository is for a personal website which display a user's repositories an
 		files in the root folder of a repository
 	10/6/2017: Added getRawContents function to ajax.js to get the raw 
 		contents of a specific file
+<<<<<<< HEAD
 	10/6/2017: Added User component to App.js
 	10/8/2017: Added exported statement for getRepos in ajax.js and 
 		import statement in App.js
 	10/8/2017: Added Repo component and added some mock repos to User 
 		component
+||||||| merged common ancestors
+	10/6/2017: Added User component to App.js
+=======
+	10/6/2017: Added User component to App.js
+	10/8/2017: Moved importing ajax.js library from index.js to App.js
+	10/8/2017: Added export statement to ajax.js
+>>>>>>> 7d8ccb54dc4e1864a4b4c766e3933cc087d82c03
