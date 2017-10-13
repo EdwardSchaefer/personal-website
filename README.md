@@ -32,3 +32,4 @@ This repository is for a personal website which display a user's repositories an
 	10/12/2017: Initialized static version of website
 	10/12/2017: Added template and css for list of projects
 	10/13/2017: Added link to Movie Trailer site and hosted on virtual server
+	10/13/2017: Added name header and links to LinkedIn/Github
