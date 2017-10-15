@@ -36,3 +36,4 @@ This repository is for a personal website which display a user's repositories an
 	10/13/2017: Added links to individual Github repositories
 	10/14/2017: Added link to Portfolio site and hosted on virtual server
 	10/14/2017: Added link to Interval Cycles and hosted on virtual server
+	10/15/2017: Added link to Neighborhood Map and hosted on virtual server
