@@ -39,3 +39,4 @@ This repository is for a personal website which display a user's repositories an
 	10/15/2017: Added link to Neighborhood Map and hosted on virtual server
 	10/16/2017: Added link to Multi-User Blog and configured Google App Engine 
 		to serve the App on a custom domain
+	10/19/2017: Configured Google App Engine to serve Blog on default domain
