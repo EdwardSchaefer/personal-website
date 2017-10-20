@@ -41,3 +41,4 @@ This repository is for a personal website which display a user's repositories an
 		to serve the App on a custom domain
 	10/19/2017: Configured Google App Engine to serve Blog on default domain
 	10/19/2017: Added direct link to Swiss Tournament GitHub repository
+	10/10/2017: Added link to Item Catalog
